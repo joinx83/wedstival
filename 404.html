@@ -1,15 +1,33 @@
+---
+# example 404.html
+
+layout: default
+permalink: /404.html
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- <title>Our Story</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <!--add web font links here
+    <link href="https://fonts.googleapis.com/css?family=Lato|Quicksand" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; }
+        
+        html { 
+            background: url(#) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style> -->
+
     <meta name="description" content="">
-    <meta property="og:title" content="Steph + John's Wedstival" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://joinx83.github.io/wedstival/index3.html" />
-    <meta property="og:image" content="https://joinx83.github.io/wedstival/assets/img/wedstival-og.jpg" />
     <link rel="icon" href="../../favicon.ico">
 
     <!-- Google Tag Manager -->
@@ -20,7 +38,7 @@
     })(window,document,'script','dataLayer','GTM-PVX85KX');</script>
     <!-- End Google Tag Manager -->
 
-    <title>Steph plus John</title>
+    <title>404 - oopsie daisies</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Lato" rel="stylesheet">
@@ -31,14 +49,14 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- My custom CSS -->
-    <link href="assets/css/custom.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="assets/css/cover.css" rel="stylesheet">
 
-    <link href="assets/css/styles2.css" rel="stylesheet">
-
+    <!-- My custom CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+  
+    <link href="assets/css/timeline.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/styles2.css" type="text/css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -50,24 +68,26 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-  <body>
-
+    <body>
+        
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVX85KX"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-    <div class="site-wrapper">
+        <!-- header starts
+        <div class="header">
+            <div class="nav">
+            <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Vows</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+            </div>
+        </div>
+        <!-- header ends -->
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -89,30 +109,18 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-            </div>
-          </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Steph + John</h1>
-            <p class="lead">31 March 2017</p>
-            <p class="lead">
-              <a href="gallery2.html" class="btn btn-lg btn-default">View pictures</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
+    <h1>Oopsie daisies</h1>
+    <p class="leader">Well this is embarrasing, looks like you've outsmarted us here. Fear not, use the nav above to find your way.</p>
+    
+<div class="mastfoot">
             <div class="inner">
               <p class="footer">© Copyright 2017. All rights reserved. <!-- <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>. --></p>
             </div>
           </div>
+        
 
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Bootstrap core JavaScript
+        <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -120,16 +128,5 @@
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-    // Footer //
-
-    $(window).scroll(function () {
-    if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-        $('.mastfoot').slideDown(200);
-    } else {
-        $('.mastfoot').slideUp(200);
-    }
-});
-    </script>
-  </body>
+    </body>
 </html>
