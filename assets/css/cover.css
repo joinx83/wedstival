@@ -43,6 +43,15 @@ body {
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
+.site-wrapper-2 {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  background: #FDFCF7 no-repeat center center fixed;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
@@ -112,6 +121,12 @@ body {
   font-weight: bold;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  .cover-container {
+    width: 375px;
+  }
+}
+
 
 /*
  * Footer
@@ -119,7 +134,18 @@ body {
 
 .mastfoot {
   color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.8);
+  background-color: rgb(80, 80, 80);
+  font-size: 0.8em;
+  position: fixed;
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+   .mastfoot {
+     position: fixed; 
+     bottom: 0;
+}
 }
 
 
@@ -130,11 +156,11 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
   }
   /* Start the vertical centering */
@@ -151,7 +177,7 @@ body {
 
 @media (min-width: 992px) {
   .masthead,
-  .mastfoot,
+  /* .mastfoot, */
   .cover-container {
     width: 700px;
   }

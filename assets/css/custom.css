@@ -68,7 +68,9 @@ h1 {
   font-family: 'Quicksand';
   font-size: 90px;
   text-shadow: 5px 5px 0px rgb(214, 51, 108);
-  color: rgba(253, 231, 76, 0.9)
+  color: rgba(253, 231, 76, 0.9);
+  line-height: 1em;
+  padding-top: 20px;
 }
 mark {
   color: #000;
@@ -250,7 +252,7 @@ th {
   }
   .btn, .btn-lg, .btn-default {
     border-radius: 0;
-    border: 0 !important;
+    border: 4px solid rgb(91, 192, 235) !important;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -1094,7 +1096,7 @@ html {
 }
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -3018,7 +3020,7 @@ select[multiple].input-lg {
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 600;
   line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
@@ -3069,7 +3071,7 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
-  background-color: rgb(91, 192, 235);
+  background-color: none;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -6908,4 +6910,33 @@ button.close {
     max-width: 100%; 
   }
 }
+@media (max-width: 375px) {
+  .navbar-default {
+    width: 375px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cover-heading {
+    margin-top: -270px;
+
+}
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .cover-heading {
+    font-size: 75px;
+
+}
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #fde74c;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background-color: #fde74c;
+
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */

@@ -3,15 +3,15 @@ body {
 }
 .gallery-title
 {
-    font-size: 36px;
+    font-size: 56px;
     color: #DD5887;
     text-align: center;
     font-weight: 500;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: 75px;
+    margin-bottom: 25px;
 }
 .gallery-title:after {
-    content: "";
+    /* content: ""; */
     position: absolute;
     width: 7.5%;
     left: 46.5%;
@@ -65,6 +65,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background: #FDFCF7;
 }
 
    
