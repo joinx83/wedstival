@@ -6828,7 +6828,8 @@ button.close {
   .img-responsive-26, .img-responsive-27,
   .img-responsive-28, .img-responsive-29,
   .img-responsive-30, .img-responsive-31,
-  .img-responsive-32, .img-responsive-33 { 
+  .img-responsive-32, .img-responsive-33,
+  .img-responsive-35 { 
     margin-top: 0;
     max-width: 100%;
   
@@ -6909,7 +6910,8 @@ button.close {
   .img-responsive-26, .img-responsive-27,
   .img-responsive-28, .img-responsive-29,
   .img-responsive-30, .img-responsive-31,
-  .img-responsive-32, .img-responsive-33 {
+  .img-responsive-32, .img-responsive-33,
+  .img-responsive-35 {
     max-width: 100%; 
   }
 }
