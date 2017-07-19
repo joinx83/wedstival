@@ -6960,5 +6960,11 @@ button.close {
 }
 }
 
+@media (min-width: 376px) and (max-width: 766px) {
+  .navbar-default .navbar-brand {
+    margin-left: 27%;
+}
+}
+
 
 /*# sourceMappingURL=bootstrap.css.map */

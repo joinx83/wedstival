@@ -445,3 +445,19 @@ p:after {
 	}
 }
 
+@media (min-width: 376px) and (max-width: 766px) {
+  #vows-text, #vows-text-1, #vows-text-2, #vows-text-john {
+    width: 80%;
+  }
+  blockquote {
+    width: 80%;
+    padding: 0 0 0 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  blockquote {
+    padding: 0 0 0 40px;
+  }
+}
+
