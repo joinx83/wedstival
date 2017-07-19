@@ -277,7 +277,7 @@ nav a {
 	/* height: 100%; */
 	position: relative;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 20px 0;
 }
 
 .profile-pic {
@@ -312,6 +312,7 @@ nav a {
 .john {
 	background-color: #FDFCF7; 
 	text-align: center;
+	padding-top: 30px;
 }
 
 #vows-text, #vows-text-1, #vows-text-2, #vows-text-john {
